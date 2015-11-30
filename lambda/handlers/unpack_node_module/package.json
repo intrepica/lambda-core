@@ -1,0 +1,12 @@
+{
+  "name": "unpack_node_module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Tim Fairbrother",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "unzip": "^0.1.11"
+  }
+}

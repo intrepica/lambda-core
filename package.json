@@ -1,0 +1,60 @@
+{
+  "name": "lambda_core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "''",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --progress --profile --colors --config webpack.config.production.js",
+    "dev": "node_modules/.bin/webpack-dev-server --progress --profile --colors --hot --config webpack.config.development.js"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "s3"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intrepica/literacyplanet_lambda_core"
+  },  
+  "author": "Tim Fairbrother <tdfairbrother@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "gulp": "^3.9.0",
+    "history": "^1.13.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.0"
+  },
+  "devDependencies": {
+    "async": "^1.5.0",
+    "concat-stream-callback": "^1.0.1",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-awslambda": "^0.2.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-ignore": "^2.0.1",
+    "gulp-install": "^0.6.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-spawn-mocha": "^2.2.1",
+    "gulp-tap": "^0.1.3",
+    "gulp-util": "^3.0.7",
+    "gulp-zip": "^3.0.2",
+    "loadenv": "^2.1.0",
+    "minimist": "^1.2.0",
+    "parse-filepath": "^0.6.3",
+    "q": "^1.4.1",
+    "run-sequence": "^1.1.5",
+    "babel-core": "^5.5.8",
+    "babel-loader": "^5.1.4",
+    "css-loader": "^0.18.0",
+    "file-loader": "^0.8.4",
+    "react-hot-loader": "^1.2.7",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}
