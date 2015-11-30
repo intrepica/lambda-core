@@ -1,6 +1,6 @@
 # Lambda Core
 
-![Architecture](https://github.com/intrepica/lambda_core/LambdaCoreArch.png)
+![Architecture](https://github.com/intrepica/lambda-core/LambdaCoreArch.png)
 
 ### Single page app
 
