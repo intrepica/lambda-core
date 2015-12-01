@@ -6,10 +6,10 @@ require('loadenv')();
 
 module.exports = {
   entry: [
-      './index.jsx' // Your appʼs entry point
+      './app/index.jsx' // Your appʼs entry point
     ],
   output: {
-    path: path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'app', 'public'),
     filename: 'bundle.js'
   },
   resolve: {
@@ -55,7 +55,6 @@ module.exports = {
         test: /\.png/,
         loader: 'url-loader?limit=10000&mimetype=image/png'
       }
-
     ]
   },
   plugins: [

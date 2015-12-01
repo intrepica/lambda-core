@@ -1,6 +1,3 @@
-require('../node_modules/bootstrap/dist/css/bootstrap.min.css');
-require('../css/main.css');
-
 import { React, Component, Link, ui } from '../app';
 import { load } from '../services/cognito';
 

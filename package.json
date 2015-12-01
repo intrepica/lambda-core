@@ -2,7 +2,7 @@
   "name": "lambda_core",
   "version": "0.0.1",
   "description": "",
-  "main": "''",
+  "main": "./app/index.jsx",
   "scripts": {
     "build": "node_modules/.bin/webpack --progress --profile --colors --config webpack.config.production.js",
     "dev": "node_modules/.bin/webpack-dev-server --progress --profile --colors --hot --config webpack.config.development.js"
